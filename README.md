@@ -21,3 +21,10 @@ pip install beautifulsoup4
    ```bash
    git clone https://https://github.com/nisch-mhrzn/Web-Scraping
    cd Web-Scraping
+
+2. **Install Dependencies:**
+
+Use the following command to install the necessary dependencies:
+
+   ```bash
+pip install -r requirements.txt
