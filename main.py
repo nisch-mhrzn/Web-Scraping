@@ -13,7 +13,7 @@ htmlContent = r.content
 
 #step 2: Prase the HTML
 soup = BeautifulSoup(htmlContent,'html.parser')
-# print(soup.prettify)
+# print(soup.prettify())
 
 #Step3 : HTML tree traversal
 #Commonly used types of object
@@ -30,6 +30,8 @@ paras =  soup.find_all('p')
 # print(paras)
 
 #GEt the anchor atags
+
+
 anchors = soup.find_all('a')
 all_links =set()
 #get all the links on the page
