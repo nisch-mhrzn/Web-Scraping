@@ -30,9 +30,6 @@ Follow these steps to run the web scraping script:
     pip install requests
     pip install beautifulsoup4
     ```
-    
-
-    This command will install the required libraries specified in the `requirements.txt` file.
 
 3. **Run the Script:**
 
