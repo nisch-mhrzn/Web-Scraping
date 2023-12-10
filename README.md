@@ -10,21 +10,38 @@ Before running the script, make sure you have the following installed:
 - Requests library
 - BeautifulSoup library (bs4)
 
-```bash
-pip install requests
-pip install beautifulsoup4
 
 ## Usage
 
-1. Clone the Repository:
+Follow these steps to run the web scraping script:
 
-   ```bash
-   git clone https://https://github.com/nisch-mhrzn/Web-Scraping
-   cd Web-Scraping
+1. **Clone the Repository:**
 
-2. Install Dependencies:
+    ```bash
+    git clone https://github.com/nisch-mhrzn/Web-Scraping
+    cd Web-Scraping
+    ```
 
-Use the following command to install the necessary dependencies:
+2. **Install Dependencies:**
 
-   ```bash
-pip install -r requirements.txt
+    Use the following command to install the necessary dependencies:
+
+    ```bash
+    pip install requests
+    pip install beautifulsoup4
+    ```
+    
+
+    This command will install the required libraries specified in the `requirements.txt` file.
+
+3. **Run the Script:**
+
+    After successfully installing the dependencies, run the web scraping script with the following command:
+
+    ```bash
+    python web_scraping_script.py
+    ```
+
+    The script will demonstrate web scraping using BeautifulSoup to extract information from a specified website.
+
+**Note:** Ensure you have Python installed on your system before running the script.
